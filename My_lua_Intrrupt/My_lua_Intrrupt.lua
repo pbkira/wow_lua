@@ -14,7 +14,7 @@ frame:SetScript("OnEvent",function(self,event)
 		-- end
 
 		if (spell == 186265) then
-			SendChatMessage("龟了龟了，还能苟8秒...","SAY")
+			SendChatMessage("龟了龟了...最多苟8s...","SAY")
 		end
 
 	end
@@ -22,7 +22,7 @@ frame:SetScript("OnEvent",function(self,event)
 	if(subEvent== "SPELL_CAST_SUCCESS" and sourceGUID ==UnitGUID("pet")) then 
 
 		if (spell == 264667) then
-			SendChatMessage("嗜血已开! 为了部落! Lok'tar ogar! ","SAY")
+			SendChatMessage("嗜血开! 冲啊！为了部落! Lok'tar ogar!","SAY")
 		end
 	end
 
